@@ -1,0 +1,195 @@
+
+.title-alert{
+    text-align: center;
+    background-color: rgb(128, 0, 255);
+   
+   
+}
+.title-alert p{
+    padding-bottom: 7px;
+    padding-top: 130px;
+    margin-bottom: 5px;
+
+}
+.title-header{
+    text-align: center;
+    font-size: 2.5rem ;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.navbar-fixed{
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+}
+.navbar-text{
+    height: 66px;
+    padding-top: 0px;
+}
+.nav-item{
+    font-size: 1rem;
+    color: #212121;
+    font-weight: 450;
+    line-height: 20px;
+    padding: 26px 20px 26px 4px;
+    text-transform: uppercase;
+}
+.home_page_image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+}
+.categories{
+    margin-top: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .categories-row{
+height: 400px;
+} */
+.sale-text {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+   padding-top: 50px;
+   border-radius: 2rem;
+}
+/* .men-section{
+    position: relative;
+} */
+
+.categories-img{
+     height: 100%;
+     width: 100%;
+     object-fit:cover;
+     z-index: -1;
+     display: inline-block;
+     border-radius: 2rem;
+     
+}
+.categories-img :hover{
+    opacity: 50%;
+}
+
+
+.categories-text {
+    opacity: 70%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    bottom:30%;
+    left:-5%;
+    }
+.fashion_quote{
+    text-align: center;
+    color: white;
+    background-color: #61cc97;
+    width: 90%;
+    margin:100px auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+.products_view{
+    width: 90%;
+    margin: 100px auto;
+}
+.product_card{
+    z-index: -1;
+   
+    
+}
+.compaign_carousel{
+    width: 90%;
+    margin: 100px auto;
+    background-color: black;
+}
+.compaign_carousel{
+   width: 90%;
+   margin: 100px auto;
+   z-index: -1;
+   position: relative;
+    
+}
+
+.last-banner{
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+}
+.last-banner-img{
+    width: 100%; 
+    position: relative;
+    z-index: -1;
+}
+.Download-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30% ;
+  height: 15%;
+  font-size: 100%;
+}
+.Elegant-text{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%; 
+}
+.Versatile-text{
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%; 
+}
+.last-text{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.email-address{
+    background: transparent;
+    border:solid white;
+    border-radius: 2rem;
+    border-width: 2px;
+    font-size: 50%;
+    color: white;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-size: 90%;
+    opacity: 1; /* Firefox */
+  }
+
+#footer{
+    background-color:white;
+    margin-left: 5%;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
